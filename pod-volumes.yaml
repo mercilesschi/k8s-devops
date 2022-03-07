@@ -18,4 +18,4 @@ spec:
   - name: app-storage
     HostPath:
       path: /tmp/files
-      --validate=false
+      

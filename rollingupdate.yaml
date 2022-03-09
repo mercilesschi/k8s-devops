@@ -14,8 +14,8 @@ spec:
       tier: frontend
   strategy:
     type: RollingUpdate
-    maxSurge: 100
-    maxUnavailable: 0
+    maxSurge: 100%
+    maxUnavailable: 0%
   template:   # here we define our PODS Specs (k8s uses go template in the background)
     metadata:
       labels:

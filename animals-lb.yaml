@@ -8,7 +8,6 @@ metadata:
 spec:
   # here we select the number of pods we wish to start and the selector that tells our replica set which pods it needs 
   #  to manage
-  replicas: 1
   selector:  # Using the selector we tell our replicaset which pods to manage
     matchLabels:
       tier: frontend

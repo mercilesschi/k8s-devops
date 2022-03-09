@@ -23,6 +23,13 @@ spec:
           
 ---
 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  labels:
+    app: ui
+    tier: frontend
 spec:
   # here we select the number of pods we wish to start and the selector that tells our replica set which pods it needs 
   #  to manage

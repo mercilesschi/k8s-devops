@@ -4,7 +4,7 @@ metadata:
   name: my-service # Name of the service
 spec:
   selector:
-    type: frontend    # Run on any pod(s) with label - app: myapp
+    app: ui    # Run on any pod(s) with label - app: myapp
   ports:          # Map incoming port to target port
   - name: http-web    # Setting multiple ports listterns 
     protocol: TCP
